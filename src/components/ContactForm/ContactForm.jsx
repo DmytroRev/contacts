@@ -25,7 +25,7 @@ export default function ContactForm() {
       name: values.username,
       number: values.number,
     };
-    console.log("Dispatching addContact with payload:", newContact);
+
     dispatch(addContact(newContact));
     actions.resetForm();
   };
